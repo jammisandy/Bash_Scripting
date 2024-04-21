@@ -32,8 +32,8 @@ cd $TEMPDIR
 echo
 
 wget $URL
-unzip ART_NAME.zip
-sudo cp -r ART_NAME/* /var/www/html/
+unzip $ART_NAME.zip
+sudo cp -r $ART_NAME/* /var/www/html/
 echo
 
 # Bounce Service
